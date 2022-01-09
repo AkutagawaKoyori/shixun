@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>坠机</title>
+		<link rel="stylesheet" type="text/css" href="css/user_info.css" />
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="icon" href="img/favicon.ico">
+		<style>
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		
+		.clearfix::before,.clearfix::after{
+						content: '';
+						display: table;
+						clear: both;
+					}
+		
+		.jxx_top>h2{
+			color: #666;
+			font-size: 24px;
+			font-weight: normal;
+			line-height: 36px
+		}
+		.jxx_top>ul{
+			margin-top: 20px;
+		}
+		.jxx_top>ul>li{
+			display: block;
+			float: left;
+		}
+		.jxx_top>ul>li>a{
+			color: #333333;
+		}
+
+		.jxx_top>ul>li>a:hover{
+			color: #0563c3;
+		}
+		.jxx_line{
+			background-color: black;
+			float: left;
+			width: 1px;
+			height: 16px;
+			line-height: 21px;
+			vertical-align: middle;
+			margin:0 15px;
+		}
+		
+		
+		.jxx_center{
+			max-height: 500px;
+			margin-top: 25px;
+			z-index: 999;
+			position: relative;
+			
+		}
+		/* .jxx_center>p{
+			line-height: 35px;
+			float: left;
+		}
+		
+		.A{
+			width: 584px;
+			text-align: center;
+		}
+		.B{
+			width: 119px;
+		} */
+		
+		th{
+			width: 550px;
+			line-height: 35px;
+		}
+		#A{
+			/* width: 584px; */
+			/* background-color: #F6F6F6; */
+			/* text-align: center; */
+		}
+		
+		.jxx_down{
+			margin-top: 100px;
+		}
+		.jxx_down>img{
+			display: block;
+			margin: 0 auto;
+			width: 375px;
+			height: 284px;
+		}
+		.jxx_down>p{
+			font-size: 25px;
+			color: #666666;
+			text-align: center;
+		}
+		.jxx_down>a{
+			display: block;
+			margin: 50px auto;
+			width: 200px;
+			height: 40px;
+			font-size: 24px;
+			color: white;
+			line-height: 40px;
+			text-align: center;
+			vertical-align: middle;
+			background-color: #00A8FF;
+			border-radius: 5px;
+		}
+		.jxx_down>a{
+			cursor: pointer;
+		}
+		td{line-height: 80px;vertical-align: top;}
+		tbody:first-child{
+					width: 942px;
+					float: left;
+					background-color: #00A3E7;
+				}
+				tbody:nth-child(2){width: 59.6875rem;display: block;overflow: auto;height: 550px;float: left;}
+				tbody+tbody>tr>td{
+					width: 235px;
+					display: block;
+					float: left;
+					text-align: center;
+					/* background-color: #007AFF; */
+				}
+				tbody:nth-child(2)::-webkit-scrollbar{
+					width: 0px;
+					height: 0px;
+				}
+				tbody:nth-child(2)::-webkit-scrollbar{
+							width: 10px;
+						}
+						tbody:nth-child(2)::-webkit-scrollbar-track{
+							background-color: lightgray;
+							border-radius: 10px;
+						}
+						tbody:nth-child(2)::-webkit-scrollbar-thumb{
+							background-color: rgb(0,112,255);
+							border-radius: 10px;
+							/* -webkit-box-shadow: 10px 10px 5px lightgray; */
+						}
+
+
+		</style>
+	</head>
+	<body>
+		<div class="head">
+
+		</div>
+
+		<div class="center clear">
+			<div class="box">
+				<div class="jumpLink">
+					<a href="index.html" class="homePage">首页</a><span>>个人中心</span>
+				</div>
+
+				<div class="box2">
+					<div class="menuPage">
+						<p class="menuHeader menuHeaderBack">订单管理</p>
+						<div class="menuList">
+							<a class="page">我的订单</a>
+							<a class="page">退货管理</a>
+							<a class="page">评价管理</a>
+						</div>
+						<p class="menuHeader menuHeaderBack1">我的账户</p>
+						<div class="menuList">
+							<a class="page">我的活动</a>
+							<a class="page">我的积分</a>
+							<a class="page">积分商城</a>
+							<a class="page">积分商城订单</a>
+							<a class="page">我的优惠劵</a>
+							<a class="page">我的收藏/到货通知</a>
+							<a class="page">我的奖品</a>
+							<a class="page">中奖记录</a>
+							<a class="page">我的砍价</a>
+						</div>
+						<p class="menuHeader menuHeaderBack2">个人信息管理</p>
+						<div class="menuList">
+							<a class="page">个人信息</a>
+							<a class="page">安全中心</a>
+							<a class="page">收货地址</a>
+							<a class="page">增值税专用发票</a>
+							<a class="page">意见反馈</a>
+						</div>
+					</div>
+				</div>
+				<div class="box3">
+					<div class="moudle">
+						<img type="image" src="img/user_info/menu/default-avatar_n.png" />
+						<p class="userName">您好， asus_320317073</p>
+						<p>您目前是： 一般会员</p>
+						<p>账户总积分： <span class="integralColor">2015</span> 分<span id="recharge">充值</span></p>
+					</div>
+					<div class="moudle1">
+						<div class="integra">
+							<span class="integraUse">积分使用记录 </span><a class="textBlueBoldSoild">点击查看></a>
+							<span class="signin"onclick="signin()">签到</span><span>每日签到可获得<span style="color: #007AFF;">5</span>积分</span>
+						</div>
+						<div class="block">
+							<div class="block1">
+								<p class="block1P">待支付的订单：<span class="textBlue">0</span></p>
+								<a class="order"><span>查看待支付的订单 ></span></a>
+							</div>
+							<div class="block2">
+								<p class="block1P">待收货的订单：<span class="textBlue">0</span></p>
+								<a class="order"><span>查看待收货的订单 ></span></a>
+							</div>
+							<div class="block3">
+								<p class="block1P">待评价的订单：<span class="textBlue">0</span></p>
+								<a class="order"><span>查看待评价的订单 ></span></a>
+							</div>
+							<div class="block4">
+								<p class="block1P">收藏的商品：<span class="textBlue">0</span></p>
+								<a class="order"><span>查看收藏的商品 ></span></a>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="jxx_top">
+						<h2>我的订单</h2>
+						<ul class="clearfix">
+							<li><a>全部订单</a></li>
+							<div class="jxx_line"></div>
+							<li><a>待支付</a></li>
+							<div class="jxx_line"></div>
+							<li><a>待收货</a></li>
+							<div class="jxx_line"></div>
+							<li><a>代发货</a></li>
+							<div class="jxx_line"></div>
+							<li><a>预售</a></li>
+						</ul>
+					</div> -->
+					<!-- <div class="jxx_center clearfix">
+						<table border="" cellspacing="" cellpadding="" id="table_Box">
+							<tr style="background-color: #F6F6F6;line-height: 30px;">
+								<th id="A">订单明细</th>
+								<th>订单金额</th>
+								<th>数量</th>
+								<th>时间</th>
+							</tr>
+							<tr style="text-align: center;">
+								<td style="text-align: left;"><img src="img-nz/img/1-1.jpg"style="width: 80px;" ><p style="line-height: 80px;display: inline-block;vertical-align: top;">sdd</p></td>
+								<td>dd</td>
+								<td>dd</td>
+								<td>dd</td>
+							</tr>
+							
+							
+						</table>
+					</div> -->
+					<!-- <div class="jxx_down"">
+						<img src="./img/user_info/nodata.png" alt="nodata"/>
+						<p>您暂无此类订单，赶快去下单吧！</p>
+						<a href="index.html">去逛逛</a>
+					</div> -->
+					
+					
+					<!-- <div class="jxx_top">
+						<h2>我的订单</h2>
+						<ul class="clearfix">
+							<li><a>全部订单</a></li>
+						</ul>
+					</div>
+					<div class="jxx_center clearfix">
+						<table border="" cellspacing="" cellpadding="" id="table_Box">
+							<tr style="background-color: #F6F6F6;line-height: 30px;">
+								<th id="A">订单明细</th>
+								<th>订单金额</th>
+								<th>数量</th>
+								<th>时间</th>
+							</tr>
+							<tr style="text-align: center;">
+								<td style="text-align: left;"><img src="img-nz/img/1-1.jpg"style="width: 80px;" ><p style="line-height: 80px;display: inline-block;vertical-align: top;">sdd</p></td>
+								<td>dd</td>
+								<td>dd</td>
+								<td>dd</td>
+							</tr>
+						</table>
+					</div>
+					<div class="jxx_down"">
+						<img src="./img/user_info/nodata.png" alt="nodata"/>
+						<p>您暂无此类订单，赶快去下单吧！</p>
+						<a href="index.html">去逛逛</a>
+					</div> -->
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="bottom">
+			
+			
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+		$(function(){
+			$(".head").load('head.html');
+			$(".bottom").load('bottom.html');
+		})
+	</script>
+<script src="js/head.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/user_info.js" type="text/javascript" charset="utf-8"></script>
