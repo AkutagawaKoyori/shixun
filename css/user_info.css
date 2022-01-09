@@ -1,0 +1,65 @@
+*{margin: 0;padding: 0;line-height: none;outline: none;border-spacing: none;}
+a {text-decoration: none;color: #000000;}
+a :visited {color:#000000}
+body{margin: 0 auto;overflow-x: hidden;}
+
+.center{background-color: #F2F2F2;}
+.box{width: 1260px;margin: 0 auto;}
+.box2{float: left;background-color: white;padding: 28px 0 28px 26px;width: 198px;margin-bottom: 70px;}
+.homePage{color: #000000;margin: 20px 0 40px 0;display: inline-block;}
+.homePage:hover{color: #00aaff;}
+
+.menuPage .menuHeader{font-size: 18px;padding-left: 30px;}
+.menuPage .menuHeaderBack{background: url(../img/user_info/menu/menu_icon.png) no-repeat 0px -0.35px;}
+.menuPage .menuHeaderBack1{background: url(../img/user_info/menu/menu_icon.png) no-repeat 0px -23px;}
+.menuPage .menuHeaderBack2{background: url(../img/user_info/menu/menu_icon.png) no-repeat 0px -45px;}
+
+.menuList{margin: 20px 0;}
+.menuList a{display: block;/* color: #666; */padding-left: 30px;font-size: 14px;margin: 15px 0;}
+.menuList a:hover{color: #00A8FF;}
+
+.box3{width: 942px;height: 666px;float: left;background-color: white;padding: 28px;margin-left: 15px;}
+.box .moudle{border-bottom: #CCCCCC 1px solid;padding-bottom: 20px;}
+.box3 .moudle img{width: 137px;float: left;border-radius: 100px;margin-right: 20px;}
+.box3 .moudle .userName{font-size: 30px;color: #666666;line-height: 78px;margin-bottom: 10px;}
+.box3 .moudle p{font-size: 16px;line-height: 34px;}
+.box3 .moudle p span{color: #00A8FF;font-weight: bold;}
+.box3 .block1{width: 180px;height: 100px;padding-left: 120px;background: url(../img/user_info/menu/member-icon.png)no-repeat;margin: 0 103px 65px 0;display: inline-block;}
+.box3 .block2{width: 180px;height: 100px;padding-left: 120px;background: url(../img/user_info/menu/member-icon.png)no-repeat 0 -108px;margin: 0 103px 65px 0;display: inline-block;}
+.box3 .block3{width: 180px;height: 100px;padding-left: 120px;background: url(../img/user_info/menu/member-icon.png)no-repeat 0 -218px;margin: 0 103px 65px 0;display: inline-block;}
+.box3 .block4{width: 180px;height: 100px;padding-left: 120px;background: url(../img/user_info/menu/member-icon.png)no-repeat 0 -328px;margin: 0 103px 65px 0;display: inline-block;}
+.signIn{margin-left: 100px;}
+.signin{background-color: #007AFF;border-radius: 5px;color: white;padding: 0 5px;cursor: pointer}
+.order{font-weight: bold;}
+.order:hover{color: #00AAFF;}
+.block1P {display: block;padding: 20px 0 10px 0;}
+.block{margin: 100px 0 0 30px;}
+
+.pageon{color: #00A8FF;}
+
+..bottom{margin-top: 50px;background-color: white;}
+.bottom .moudle1{width: 1000px;padding: 20px 0;margin: 0 auto;background-color: #fafafa;}
+.bottom .moudle1 .last{display: inline-block;width: 190px;text-align: center;font-size: 15px;font-weight: 350;line-height: 40px;}
+.bottom .moudle1 .last img{display: block;margin: 0 auto;}
+.bottom .moudle2 {border-top: 1px solid #C6C6C6;clear: both;padding: 10px;margin: 0 auto;width: 100%;background-color: #FAFAFA;}
+.bottom .moudle2 .moudle2Box{margin: 0 auto;width: 1226px;}
+.bottom .moudle2 a {display: inherit;color: black;}
+.bottom .moudle2 .part1A {line-height: 27px;}
+.bottom .moudle2 .part1A:hover {color: #00a8ff;}
+.bottom .moudle2 .part1Header{font-weight: bold;line-height: 40px;}
+.bottom .moudle2 .part1{float: left;margin-right: 72px;}
+.bottom .moudle2 .phone {text-align: center;width: 250px;float: left;margin-top: 10px;}
+.bottom .moudle2 .phone img{display: block;margin: 0 auto;}
+.bottom .moudle2 .phone p{width: 150px;background-color: #000000;color: white;margin: 0 auto;line-height: 35px;border-radius: 100px;}
+.showLink{/* margin-top: 300px; */display: block;clear: both;}
+.bottom .moudle3{clear: both;text-align: center;margin: 0 auto;background-color: white;}
+.bottom .moudle3 p{padding-top: 50px;}
+.bottom .moudle3 a,span{margin: 0 5px;}
+.bottom .moudle3 a:hover{color: #00A8FF;}
+.showLinkDown{display: inline-block;color: #bebebe;}
+.showLink_h{width: 1100px;margin-top: 20px;display: none;height: 150px;}
+.showLink_h a{float: left;margin-left: 10px;}
+.showLink:focus .showLink_h{display: block;}
+.showLink_no{display: none;}
+.showLink:focus .showLink_no{display: block;}
+.showLink:focus .showLink_on{display: none;}

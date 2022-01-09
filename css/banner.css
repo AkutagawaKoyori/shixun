@@ -1,0 +1,66 @@
+.banner {
+	width: 1920px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.imgBox {
+	width: 1000%;
+	transition: 1s;
+	left: 0%;
+	position: relative;
+	display: block;
+}
+
+.bannerImg {
+	float: left;
+	position: relative
+}
+
+.next {
+	width: 56px;
+	height: 56px;
+	background: url(../img/index/Brwse/l_r2.png) no-repeat;
+	
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	right: 30%;
+	cursor: pointer;
+}
+
+.up {
+	width: 56px;
+	height: 56px;
+	background: url(../img/index/Brwse/l_r1.png) no-repeat;
+	
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+	left: 30%;
+}
+
+.spotBox {
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.spot {
+	background-color: gray;
+	width: 50px;
+	height: 10px;
+	display: inline-block;
+	border-radius: 50px;
+	margin: 0px 5px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.spotcolor {
+	background-color: dodgerblue;
+}

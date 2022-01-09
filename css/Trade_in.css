@@ -1,0 +1,44 @@
+*{margin: 0px;padding: 0px;outline: none;text-decoration: none;}
+a:visited{color: #000000;}
+a{color: #000000;}
+body{margin: 0 auto;overflow-x: hidden;}
+.harder{background-color: #eaeaea;width: 100%;}
+.harderBox{width: 1200px;margin: 0 auto;}
+.BT{height: 60px;display: inline-block;}
+.BT a{line-height: 60px;}
+.BT2{float: right;}
+.BT2 a{line-height: 50px;}
+.ER{text-align:center;background-color: ghostwhite;}
+.LC{font-size: 30px;margin-top: 45px;}
+.HS{width: ;margin: 0 auto;height: ;float: left;}
+.DK{width: 1236PX;margin: 0 auto;}
+.ZX{float:right;border-radius: 50px;background: #FE2941;background-image: url(../img/project-actinity/icon_user_pc.png);background-repeat: no-repeat;line-height: 60px;background-position: 30px 10px;}
+.ZX a{color: white;padding-left: 80px;padding-right: 20px;}
+.TP{float: left;}
+.SX{margin-top: 65px;}
+.XJHS{background-color:ghostwhite;width: 1236px;margin: 0 auto;height: 413px;margin-top: 45px;}
+.XJ1{width: 235PX;margin-top: 0PX;}
+.XJ2{width: 235PX;margin-top: 20PX;}
+.XJ3{width: 235PX;margin-top: 65PX;}
+.XJ4{width: 235PX;}
+.XJ5{width: 235PX;}
+.PZ{line-height: 109px;}
+.SPTJ{width: 1200PX;height: 128PX ;margin: 0 auto;margin-top: 45px;}
+.SP{border: darkgray 1px solid;text-align: center;font-size: 14px;width:233PX ;height: 335PX;margin-top: 5px;display: inline-block;}
+.SP p{line-height:65PX;color: red;font-size: 15px;font-weight: bold;}
+.SP p1{color: red;border-radius: 50px;background-color: #ffd7bd;height: 30px;display: inline-block;line-height: 30px;font-size: 12px;padding: 0 10px;}
+.SP2{border: darkgray 1px solid;text-align: center;font-size: 14px;width:233PX ;height: 335PX;margin-top: 45PX;}
+.SP2 p{line-height:65PX;color: crimson;font-size: 15px;}
+.SP2 p1{color: red;border-radius: 50px;background-color: darksalmon;height: 30px;display: inline-block;line-height: 30px;}
+.RMHS{background-color:ghostwhite;height: 350px;margin-top: 45px;}
+.FL1{margin-top:56PX;}
+.aA{w}
+.RM a{float:left;font-size: 20px;background: -webkit-linear-gradient(290deg, #FE2941,#FF7444);;height: 60px;width: 160px;text-align: center;line-height: 60px;color: azure;margin-top: 65px;}
+.RM a2{float:left;font-size: 20px;background-color: white;height: 60px;width:160px;margin-top: 65px;text-align: center;line-height: 60px;color: #A9A9A9;}
+.clear{clear: both;}
+.CJWT{margin-top: 350px;}
+.WT{font-size: 14PX;margin-top: 30px;}
+.WT2{width: 14PX;}
+.YHPP{margin-top: 70px;}
+
+
